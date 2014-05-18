@@ -1,0 +1,16 @@
+<head>
+  <title>reps</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <input class="reset" type="button" value="Reset" />
+  <div class="reps">
+    <h1>{{ repCount }}</h1>
+  </div>
+  <input class="increment" type="button" value="+1" />
+</template>
