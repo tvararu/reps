@@ -9,7 +9,7 @@ Features
 ===
 - increment the counter
 - reset it to 0
-- big fat buttons so I can fat finger them while I'm doing my exercises
+- big ugly buttons so I can fat finger them while I'm doing my exercises
 - nothing else.
 
 License
