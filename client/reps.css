@@ -1,12 +1,17 @@
 html, body {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
+
 body {
   margin: 0;
   font-family: 'Helvetica Neue';
   font-size: 64px;
   position: relative;
+  color: #333;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
 }
 
 .increment {
@@ -25,11 +30,31 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  background: #333;
+  color: white;
+  border: none;
+}
+
+.reps {
+  height: 100%;
+  width: 100%;
+}
+
+.reps p {
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
 }
 
 h1 {
   margin: 0 auto;
-  margin-top: 40%;
+  position: absolute;
+  top: 45%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
   width: 100%;
   text-align: center;
   font-weight: 300;

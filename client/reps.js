@@ -5,7 +5,7 @@ Template.hello.helpers({
 });
 
 Template.hello.events({
-  'click .increment': function () {
+  'click .reps': function () {
     var value = Session.get('repCount');
     Session.set('repCount', value + 1);
   },
