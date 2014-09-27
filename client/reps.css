@@ -12,6 +12,7 @@ body {
   color: #333;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  cursor: pointer;
 }
 
 .increment {
@@ -33,6 +34,7 @@ body {
   background: #333;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 .reps {
@@ -59,4 +61,3 @@ h1 {
   text-align: center;
   font-weight: 300;
 }
-

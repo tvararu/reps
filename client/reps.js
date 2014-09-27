@@ -9,7 +9,7 @@ Template.hello.events({
     var value = Session.get('repCount');
     Session.set('repCount', value + 1);
   },
-  
+
   'click .reset': function () {
     Session.set('repCount', 0);
   }
