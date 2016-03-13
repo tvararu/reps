@@ -3,8 +3,6 @@ reps
 
 **reps** is a mobile web app that I built to count the number of reps in a set of exercises. I tried searching for a native mobile app but they were too complex, wanted my money, had too many features or generally didn't appeal to my extremely simple need. I decided that simply whipping up my own solution was faster than continuing the search.
 
-Deployed at [reps.vararu.org](http://reps.vararu.org/).
-
 Features
 ===
 - increment the counter;
